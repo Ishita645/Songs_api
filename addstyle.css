@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(65, 35, 104);
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+#form{
+    border: 2px solid black;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 440px;
+    margin: 1em;
+    height: 60vh;
+    background: rgb(2, 1, 1,0.7);
+   
+}
+#form a{
+    text-decoration: none;
+    color:aqua;
+    font-size: 18px;
+    font-weight:bolder;
+    cursor: pointer;
+    margin-left: 90px;
+
+}
+
+#form h1{
+
+    text-align: center;
+
+}
+.input{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 0px;
+    width: 400px;
+    height: 15px;
+    border: none;
+    background: rgb(3, 1, 1,0.9);
+    border-radius: 10px;
+    border-bottom: 4px solid white;
+    color: white;
+
+  
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px; 
+    text-transform: capitalize;
+    background:rgb(20, 31, 180);
+    color: white;
+    cursor: pointer;
+}
